@@ -5,11 +5,15 @@ function App() {
   return (
     <div>
   <h1>
-    Hello World
+    Gideon Okyere
   </h1>
-  <p>
-  I am Gideon Okyere, this is my first React application.
-  </p>
+  <h3>Software Engineer</h3>
+  <h4>Skills</h4>
+  <ul>
+    <li>JavaScript</li>
+    <li>React</li>
+    <li>HTML 5</li>
+  </ul>
     </div>
   );
 }
