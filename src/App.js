@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from './component/Button';
 
 function App() {
   return (
@@ -14,6 +15,10 @@ function App() {
     <li>React</li>
     <li>HTML 5</li>
   </ul>
+  <div class='flex'>
+  <Button message = "Login" />
+  <Button message = "Signin" />
+  </div>
     </div>
   );
 }
